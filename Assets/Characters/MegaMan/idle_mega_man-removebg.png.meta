@@ -1,0 +1,3889 @@
+fileFormatVersion: 2
+guid: 24e5ad3076f71b0468005d139c053257
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 879
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcae7bdd92f3de41ad70964bd2ae5be
+      internalID: 1609393171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 879
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145009a54afbdec46a2a354d4befcc49
+      internalID: 1022324451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 879
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc57af5db7036e4f87dab4fe3a9a61f
+      internalID: 829255036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 879
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bde9287d0a988142aa663e1fafdecf4
+      internalID: -996746803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_4
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 879
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f941b24cb75ad4483874f71ff33282
+      internalID: -1334708351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 879
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7b841531992514897dca4a3ab84290
+      internalID: -1508581877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 879
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8028410adb59342a7e495867a10e19
+      internalID: -684523834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 879
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042e66fa09597e64189b399fcbf0de80
+      internalID: 1261559521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_8
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 879
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f577e674f9ddf438844497e63557a0
+      internalID: 1876958258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_9
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 879
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dd46852df2604469acb5ef062a02a6
+      internalID: 1229154938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 830
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686c4a138066a0b4bb2989d01ef7638e
+      internalID: 1510688592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 830
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459297b35f2c25244b1042b06c8f5a8a
+      internalID: -595146381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 830
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa2eac33bfb7cb4aa169a9bcdfa1e90
+      internalID: -1728599510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 830
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931a40aa8735f8e42931cceb2905c7f5
+      internalID: 1185921661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 830
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24dcdfe49a3a7849b276d87cd99430f
+      internalID: -1684632031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_15
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 830
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2c163b0044366418304b95c6661876
+      internalID: -1382275583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_16
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 830
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be39d4e192523574ab0385bc1ea626a5
+      internalID: -1095698363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_17
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 830
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9ea970e6844924eb307d1736fa19a3
+      internalID: 1520858139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_18
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 830
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345aca2df09f27346b5d597fd539fbdf
+      internalID: -1660464325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 789
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f69dbe7fa62cce45b3e33827dbe361e
+      internalID: 1578207546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 789
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db61d87ac4277b643acb2d624c9259e1
+      internalID: -1099459314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 789
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfc84c22476a2e4088244674fd84ef6
+      internalID: -761482566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_22
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 789
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ab5ae3ce5f36448aa84e65455139fe
+      internalID: 2095022239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_23
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 789
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f1f78f8263df84b8490fa808358235
+      internalID: 913915912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_24
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 789
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aa0071031443f4c8b5d297bed386f3
+      internalID: -1427862652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_25
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 789
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b885ef9e6d24984e830059848bd5bcd
+      internalID: -1358443871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 789
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33970c7289d978940a47859f07833098
+      internalID: 25010167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_27
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 789
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae8a58eaaf86714bbbf70cca928cf23
+      internalID: 1145089814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_28
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 789
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3600b33545ea9f64fb15dc7d5cc115ec
+      internalID: 534062381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_29
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 789
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3666bcf1944e2854499404ad4f9d200f
+      internalID: -15288178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_30
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 741
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4027f9c14769d48808c6343407b500
+      internalID: -1076008191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 741
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f201e09432c6bf849b45f6c304031b9a
+      internalID: -1762004763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_32
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 741
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba778634fb32094b8613a933d7d9620
+      internalID: -169699616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_33
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 741
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce70334e031acc49a03dc83305b1ebd
+      internalID: 1042883548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_34
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 741
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1943e3e702df894093466ed8cb0d767
+      internalID: -1170476724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_35
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 741
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c833be88424124248b7c6887df3b3e79
+      internalID: -661197283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_36
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 741
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03fc418d13599b44a7059b749589e96
+      internalID: 869987426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_37
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 741
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d097a3c689762146a0f24be8f003d29
+      internalID: 767352632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_38
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 741
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b048e02cded977545b0e1cac88f42794
+      internalID: 337752203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_39
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 741
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117cd8178addbdb4cac359419990e8db
+      internalID: -542963040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_40
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 741
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbe1c292562cfe4cb3e741d10425134
+      internalID: 326164945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_41
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 704
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb4ca9b74939b4428cb59afff1c4aa8
+      internalID: -823995992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_42
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 703
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d012671c6533744a624731076c6a55
+      internalID: -1895808391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_43
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 703
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9b6d958256eb8489586f98a743f5e5
+      internalID: -406142531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_44
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 703
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ef807210ef8b348b9c7dffb1f7c93e
+      internalID: 254089331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_45
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 703
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc87fa42de1d4b94989207244e49935f
+      internalID: -1938671488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_46
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 703
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02582d832add5954bac867510e8bcbcd
+      internalID: -1740813155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_47
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 703
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657773a27b5082e4ab8197e9de3f3926
+      internalID: 1201676110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_48
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 703
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fca6cf3cd652d40acce57532301c76
+      internalID: -428319307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 703
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba8f7f3834ddc84e874f0357c4a0fff
+      internalID: -227325758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_50
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 703
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085e6faa44a3c734f8cb6011ba362b89
+      internalID: 919822612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_51
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 703
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf033511d1100d249a3ed0dbc322cc29
+      internalID: -515182312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_52
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 661
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044aba944fc6ffe46b0abb87847e7d2c
+      internalID: 1760814882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 661
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134acaba5a094bb4f949bfb86b738e8b
+      internalID: 1639616141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_54
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 661
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550b059587264044c90678dcbc131fa4
+      internalID: -843756866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_55
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 661
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80a7c4dcfcf2fa4596c60754bd412c2
+      internalID: -118125089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_56
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 660
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f94317cba6fe8e4bb0e08436f57c9f1
+      internalID: 84834911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_57
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 660
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4563e610aafe28c4aa6e81cde8ff8691
+      internalID: 1709593090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_58
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 660
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfec0092776d3b448014f5000178be1
+      internalID: 2097713052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_59
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 661
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3714d45ed8dfd124095a78fb3d8c7f30
+      internalID: -221759927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_60
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 661
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12f2283f54ed704fa89cfd612e59f78
+      internalID: 1525467907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_61
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 607
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcbb05f1faf1e549bdbccf23b5bfb1c
+      internalID: 1378118900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_62
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 607
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9969b55e3dc32245a2cdc53bf225fef
+      internalID: 921802680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_63
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 606
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744f332f3d0f5824dab7f0e94dbc2990
+      internalID: -1073441131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_64
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 606
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aef70d45b8b78c4bb6646e80f257327
+      internalID: 630865128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_65
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 609
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b7f77510648764193bde1df4e498c4
+      internalID: 488211684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_66
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 609
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b0212b41967134392f83cd38df108a
+      internalID: -537080994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_67
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 609
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed3b157369b60a49bd1487e37613aa1
+      internalID: -84638633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_68
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 535
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d9bf8905e5fe24d9da0bcf9a163e39
+      internalID: 1291290694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_69
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 534
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0f8d17a7e2b824aa477203da08e333
+      internalID: -1512717775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_70
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 534
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2409de68565026e4a91870bce7ee3709
+      internalID: 2138573547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_71
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 534
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816bd5c64dcab8e4c9cf26ac6f1e393d
+      internalID: 834818326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_72
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 534
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bb59b28ac32504488fa2d3a73cbdd1
+      internalID: 510615217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_73
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 534
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17325e198b788194086bb693fe0c0bbf
+      internalID: 1160676514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_74
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 534
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fdf0188fcf46647baff975066d5bac
+      internalID: -745862239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_75
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 534
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2910c889a7f23ca4c83bfda8f54d94b0
+      internalID: 1889151475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_76
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 534
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72059ec63c9c83c46867c219ff3eb18d
+      internalID: -88308807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_77
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 534
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ac0a7fc69deca4c9f23f7ecf9b2ac9
+      internalID: 1519353023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_78
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 534
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8baa0b914e1f94a95e6f7bd8223989
+      internalID: -1405760213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_79
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 468
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2968da1541cb847b1eb73514173347
+      internalID: 1131342444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_80
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 473
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde40e3ea9bcaaf4c9d9fbf825249db3
+      internalID: -169175960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_81
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 469
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbd7f93141c968458313c3e6b6a4c9b
+      internalID: 1552071562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_82
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 467
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411e8f86cbd791b48afa7f1fa4331360
+      internalID: -1246931334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_83
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 468
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb98c77a25f976d4c8bc4a8e30baa7cb
+      internalID: 316504641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_84
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 467
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8b9971ed218244b97ee41c07ae831d
+      internalID: 338317826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_85
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 463
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd363f16becf224cacbdeef6e3706d3
+      internalID: 1114849055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_86
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 460
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1d45839a624b14ebc207a2784661fa
+      internalID: 958202301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_87
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 461
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6498d8f85262074db3dfc434de4a22a
+      internalID: -395514793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_88
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 478
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818d7a8828ff72e4683774b9d30cfa22
+      internalID: 534908761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_89
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 461
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4436e52450a8ce14eac2fc88f8220f97
+      internalID: 627961464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_90
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 459
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c995c9c02cf284fbe460b62c332f65
+      internalID: 474366957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_91
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 416
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24105d1e3f20a8d429a30019286ace9f
+      internalID: -621522727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_92
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 416
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355e0a9ca66f73e4280152890e6b3ba7
+      internalID: 222383775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_93
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 416
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f1ac8cb0b34b5409b2b62d010477af
+      internalID: 1776788509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_94
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 416
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396640d4bf7ed4f4e8a4d9853008db32
+      internalID: -2040156695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_95
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 416
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566293466a460cf49b651874dcad6aff
+      internalID: -354332873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_96
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 416
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795b5bfbf744f4f43a27789855a57118
+      internalID: 532593518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_97
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 361
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3efd1a27f5db64189fa1a946922f66
+      internalID: -1160330264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_98
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 361
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037b4239723fb5448b25ea7c927735af
+      internalID: 2059655582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 361
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206fc2d5fa4282948baa78b99cd738b3
+      internalID: 1821489468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_100
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 361
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4256b4a885d1b504c8d1c81296b3e07c
+      internalID: 206225721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_101
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 361
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da53e212db441a4f972e1674fb409fd
+      internalID: -836084755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_102
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 361
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9d1f5e33e0b0f4481d4c53b722d3fe
+      internalID: -1078424899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_103
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 360
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09436ca9bbbf4874c9aa3ff91640c109
+      internalID: -1824404810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_104
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 362
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32887385c28e86246921d83adae68795
+      internalID: 1483855368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_105
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 361
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b8356f583268a4cb95e8f344923e69
+      internalID: 2028313983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_106
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 362
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedcef308acdcd7408460a889d92a941
+      internalID: 1357999130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_107
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 304
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb281c11577bf744952465ff4684165
+      internalID: 900276201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_108
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 304
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a469d4564bd094f82730931246c563
+      internalID: -746026173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_109
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 307
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b30fe811703a04199f9292b99c8a77
+      internalID: -418252391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_110
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 307
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bec475ed870acd41bb1edb12872fe95
+      internalID: 1537775921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_111
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 304
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d50ec11b37168469f1c68a54052c06
+      internalID: 1548518656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_112
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 316
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3187fb5b519518c4ab58c44d372f61c2
+      internalID: -2027424973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_113
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 321
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964f3debe5804db48a552acecd7c28fd
+      internalID: -2088766553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_114
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 305
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dc9e9c82184cf46ad490c20fb45be2
+      internalID: 1443007053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_115
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 254
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b4a2a40475e6845857c246ff318897
+      internalID: 1854367157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6b610e86b8331459612ee02c1fadc7
+      internalID: -254666456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_117
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb81b256ffe07da429d61c6e48f56b13
+      internalID: 1284239342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_118
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 250
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a056cedce2f1f4280a4e4e1c36553b
+      internalID: 564855038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_119
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38d64eff7514214db196210092eb044
+      internalID: 1255263719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_120
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 250
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e63cfc6250ebd04d8365f13b0a8260c
+      internalID: 1813161304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_121
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd1de6c31d3a6d41812382d368d2db4
+      internalID: -318107886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_122
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 250
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fea667fc8d28f4abb7a12bebaea6be
+      internalID: -1067155750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_123
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 254
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba29ef22a78f3e45952f628a38f5a75
+      internalID: 756469143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_124
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7245fd6b4fa02574c93be009ff133d31
+      internalID: 218644140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_125
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 254
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc61d07abdada2743893214469a07a78
+      internalID: 169539113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_126
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 254
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14abd960751256e4388adb98c5c1621a
+      internalID: 1742341825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_127
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 192
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c516a71b7dd8964aaa7f6906d8b8d0b
+      internalID: 1959278228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_128
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634d1cfc759fd3c499b1753cc1d8b761
+      internalID: -1100882624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_129
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 189
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f935a8b847363647a6fe0936146f50d
+      internalID: -1258261312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_130
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 190
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41289e8c361da4b4bb37568d65da8490
+      internalID: -1825756842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_131
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 190
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356689465c66765439d895d2a140c8cb
+      internalID: -1754636513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_132
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 190
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f147aa011d4ce428f0f2a721370e8c
+      internalID: -458493548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_133
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 190
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7ae9a5f8f19df4f95fe12c556963aa
+      internalID: 2015690331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_134
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 190
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d794f2a27db3a4ab2cd87dab52ada9
+      internalID: 726805404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_135
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 192
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fe6e66d1c9ae747a957f2cd00f1b18
+      internalID: 578228871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_136
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 192
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31bc2db0ccc0c04e9d35d7659367d33
+      internalID: -1125354011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_137
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 193
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95725609b784fab4ea24bd5180d233ba
+      internalID: 1970463008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_138
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 184
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0700e3f36eb334388f8cc18570a8ab
+      internalID: -620841700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_139
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 193
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40818d3f96be8d342a1bd0e6b06410a3
+      internalID: 1988773460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_140
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 130
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54524567d3bb25c4e93a1dc5d8d23da2
+      internalID: -1293673241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_141
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 134
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c047fcd3664c7419367b2ffbd580a0
+      internalID: 1210560699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_142
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 131
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b3fe0c9f33d1e429e037f5586b371b
+      internalID: 1997327359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_143
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 133
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4c1d377845cd541af0d1cc7f1c017e
+      internalID: 1293325342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_144
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 136
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3ff56bda40b6b43897c779240a7a03
+      internalID: -1809986191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_145
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 138
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9e626ed9e26364f909df9a85d637e2
+      internalID: -2141709600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_146
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 89
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaea9dfa0ff8a9f4fa846e07bb23cf42
+      internalID: 1480296954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_147
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 99
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7179f3825a75a49ba6eee237ae97b4
+      internalID: 2105852032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_148
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 94
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc64aa490aa66d4089a8638aba9e704
+      internalID: -715440394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_149
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 90
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15eae7f5aa4d07741ac2f346d0f2aee1
+      internalID: -1357940241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_150
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 86
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86528eb5f8fa73541ac7d10edc8ed931
+      internalID: 215289407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_151
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 89
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cea08c9268d0b4f81ae647e2249a0a
+      internalID: -821081593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_152
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 89
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b93a86570170d44997f73c61bee0b0
+      internalID: -1873341069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_153
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 89
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a85134c90b3ca547bb29a55882d99cb
+      internalID: -133850374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_154
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 89
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1330b550adfac394b8a8be966c7a29fe
+      internalID: -2069479178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_155
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 47
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6f7305a2887d744a353c7a41a14e3c
+      internalID: -1079677501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_156
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 47
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbfcdfda336fc54fa266291ce84ebea
+      internalID: -1180095271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_157
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 47
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db7df3825b10ff4698b7d47ebc3b2c3
+      internalID: -1285308574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_158
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 47
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4bbe09778794e41bc654cbf90ef12e
+      internalID: 681150506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_159
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 47
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd063b21d9b2b094e8329eedf198a52b
+      internalID: -343763813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_160
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 47
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1a439c5c8fe734981562eba883b94d
+      internalID: 929178007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_161
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 47
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ffc37edf858554fa13545d94835947
+      internalID: 232410557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_162
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 50
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28507737b586dad47a5a3e549dc2f45d
+      internalID: 1365263931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_163
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 50
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77113415488fc442b91dbb12e07cd6f
+      internalID: -906451949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_164
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 50
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fdeeb0d7153b34c94e07325bfd7557
+      internalID: 1419475669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_165
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 50
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85d7c6023d011a45901cd6ec2820d72
+      internalID: -1111324818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_166
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 50
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b5d1b82ca23d74cb32bc723cd83adb
+      internalID: 907587419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_167
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9526f8a2e6c3d494ea84dd3e29bfe73f
+      internalID: -1749422497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_168
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5156cd09c47fc4945a8136cc8c582d05
+      internalID: 900088484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_169
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 5
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f1f7a8aadfa694aadbd5f516c254ac
+      internalID: -1381770000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_mega_man-removebg_170
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 8
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4a3def01dd7c0468d99a9e03826f07
+      internalID: -101968187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      idle_mega_man-removebg_0: 1609393171
+      idle_mega_man-removebg_1: 1022324451
+      idle_mega_man-removebg_10: 1510688592
+      idle_mega_man-removebg_100: 206225721
+      idle_mega_man-removebg_101: -836084755
+      idle_mega_man-removebg_102: -1078424899
+      idle_mega_man-removebg_103: -1824404810
+      idle_mega_man-removebg_104: 1483855368
+      idle_mega_man-removebg_105: 2028313983
+      idle_mega_man-removebg_106: 1357999130
+      idle_mega_man-removebg_107: 900276201
+      idle_mega_man-removebg_108: -746026173
+      idle_mega_man-removebg_109: -418252391
+      idle_mega_man-removebg_11: -595146381
+      idle_mega_man-removebg_110: 1537775921
+      idle_mega_man-removebg_111: 1548518656
+      idle_mega_man-removebg_112: -2027424973
+      idle_mega_man-removebg_113: -2088766553
+      idle_mega_man-removebg_114: 1443007053
+      idle_mega_man-removebg_115: 1854367157
+      idle_mega_man-removebg_116: -254666456
+      idle_mega_man-removebg_117: 1284239342
+      idle_mega_man-removebg_118: 564855038
+      idle_mega_man-removebg_119: 1255263719
+      idle_mega_man-removebg_12: -1728599510
+      idle_mega_man-removebg_120: 1813161304
+      idle_mega_man-removebg_121: -318107886
+      idle_mega_man-removebg_122: -1067155750
+      idle_mega_man-removebg_123: 756469143
+      idle_mega_man-removebg_124: 218644140
+      idle_mega_man-removebg_125: 169539113
+      idle_mega_man-removebg_126: 1742341825
+      idle_mega_man-removebg_127: 1959278228
+      idle_mega_man-removebg_128: -1100882624
+      idle_mega_man-removebg_129: -1258261312
+      idle_mega_man-removebg_13: 1185921661
+      idle_mega_man-removebg_130: -1825756842
+      idle_mega_man-removebg_131: -1754636513
+      idle_mega_man-removebg_132: -458493548
+      idle_mega_man-removebg_133: 2015690331
+      idle_mega_man-removebg_134: 726805404
+      idle_mega_man-removebg_135: 578228871
+      idle_mega_man-removebg_136: -1125354011
+      idle_mega_man-removebg_137: 1970463008
+      idle_mega_man-removebg_138: -620841700
+      idle_mega_man-removebg_139: 1988773460
+      idle_mega_man-removebg_14: -1684632031
+      idle_mega_man-removebg_140: -1293673241
+      idle_mega_man-removebg_141: 1210560699
+      idle_mega_man-removebg_142: 1997327359
+      idle_mega_man-removebg_143: 1293325342
+      idle_mega_man-removebg_144: -1809986191
+      idle_mega_man-removebg_145: -2141709600
+      idle_mega_man-removebg_146: 1480296954
+      idle_mega_man-removebg_147: 2105852032
+      idle_mega_man-removebg_148: -715440394
+      idle_mega_man-removebg_149: -1357940241
+      idle_mega_man-removebg_15: -1382275583
+      idle_mega_man-removebg_150: 215289407
+      idle_mega_man-removebg_151: -821081593
+      idle_mega_man-removebg_152: -1873341069
+      idle_mega_man-removebg_153: -133850374
+      idle_mega_man-removebg_154: -2069479178
+      idle_mega_man-removebg_155: -1079677501
+      idle_mega_man-removebg_156: -1180095271
+      idle_mega_man-removebg_157: -1285308574
+      idle_mega_man-removebg_158: 681150506
+      idle_mega_man-removebg_159: -343763813
+      idle_mega_man-removebg_16: -1095698363
+      idle_mega_man-removebg_160: 929178007
+      idle_mega_man-removebg_161: 232410557
+      idle_mega_man-removebg_162: 1365263931
+      idle_mega_man-removebg_163: -906451949
+      idle_mega_man-removebg_164: 1419475669
+      idle_mega_man-removebg_165: -1111324818
+      idle_mega_man-removebg_166: 907587419
+      idle_mega_man-removebg_167: -1749422497
+      idle_mega_man-removebg_168: 900088484
+      idle_mega_man-removebg_169: -1381770000
+      idle_mega_man-removebg_17: 1520858139
+      idle_mega_man-removebg_170: -101968187
+      idle_mega_man-removebg_18: -1660464325
+      idle_mega_man-removebg_19: 1578207546
+      idle_mega_man-removebg_2: 829255036
+      idle_mega_man-removebg_20: -1099459314
+      idle_mega_man-removebg_21: -761482566
+      idle_mega_man-removebg_22: 2095022239
+      idle_mega_man-removebg_23: 913915912
+      idle_mega_man-removebg_24: -1427862652
+      idle_mega_man-removebg_25: -1358443871
+      idle_mega_man-removebg_26: 25010167
+      idle_mega_man-removebg_27: 1145089814
+      idle_mega_man-removebg_28: 534062381
+      idle_mega_man-removebg_29: -15288178
+      idle_mega_man-removebg_3: -996746803
+      idle_mega_man-removebg_30: -1076008191
+      idle_mega_man-removebg_31: -1762004763
+      idle_mega_man-removebg_32: -169699616
+      idle_mega_man-removebg_33: 1042883548
+      idle_mega_man-removebg_34: -1170476724
+      idle_mega_man-removebg_35: -661197283
+      idle_mega_man-removebg_36: 869987426
+      idle_mega_man-removebg_37: 767352632
+      idle_mega_man-removebg_38: 337752203
+      idle_mega_man-removebg_39: -542963040
+      idle_mega_man-removebg_4: -1334708351
+      idle_mega_man-removebg_40: 326164945
+      idle_mega_man-removebg_41: -823995992
+      idle_mega_man-removebg_42: -1895808391
+      idle_mega_man-removebg_43: -406142531
+      idle_mega_man-removebg_44: 254089331
+      idle_mega_man-removebg_45: -1938671488
+      idle_mega_man-removebg_46: -1740813155
+      idle_mega_man-removebg_47: 1201676110
+      idle_mega_man-removebg_48: -428319307
+      idle_mega_man-removebg_49: -227325758
+      idle_mega_man-removebg_5: -1508581877
+      idle_mega_man-removebg_50: 919822612
+      idle_mega_man-removebg_51: -515182312
+      idle_mega_man-removebg_52: 1760814882
+      idle_mega_man-removebg_53: 1639616141
+      idle_mega_man-removebg_54: -843756866
+      idle_mega_man-removebg_55: -118125089
+      idle_mega_man-removebg_56: 84834911
+      idle_mega_man-removebg_57: 1709593090
+      idle_mega_man-removebg_58: 2097713052
+      idle_mega_man-removebg_59: -221759927
+      idle_mega_man-removebg_6: -684523834
+      idle_mega_man-removebg_60: 1525467907
+      idle_mega_man-removebg_61: 1378118900
+      idle_mega_man-removebg_62: 921802680
+      idle_mega_man-removebg_63: -1073441131
+      idle_mega_man-removebg_64: 630865128
+      idle_mega_man-removebg_65: 488211684
+      idle_mega_man-removebg_66: -537080994
+      idle_mega_man-removebg_67: -84638633
+      idle_mega_man-removebg_68: 1291290694
+      idle_mega_man-removebg_69: -1512717775
+      idle_mega_man-removebg_7: 1261559521
+      idle_mega_man-removebg_70: 2138573547
+      idle_mega_man-removebg_71: 834818326
+      idle_mega_man-removebg_72: 510615217
+      idle_mega_man-removebg_73: 1160676514
+      idle_mega_man-removebg_74: -745862239
+      idle_mega_man-removebg_75: 1889151475
+      idle_mega_man-removebg_76: -88308807
+      idle_mega_man-removebg_77: 1519353023
+      idle_mega_man-removebg_78: -1405760213
+      idle_mega_man-removebg_79: 1131342444
+      idle_mega_man-removebg_8: 1876958258
+      idle_mega_man-removebg_80: -169175960
+      idle_mega_man-removebg_81: 1552071562
+      idle_mega_man-removebg_82: -1246931334
+      idle_mega_man-removebg_83: 316504641
+      idle_mega_man-removebg_84: 338317826
+      idle_mega_man-removebg_85: 1114849055
+      idle_mega_man-removebg_86: 958202301
+      idle_mega_man-removebg_87: -395514793
+      idle_mega_man-removebg_88: 534908761
+      idle_mega_man-removebg_89: 627961464
+      idle_mega_man-removebg_9: 1229154938
+      idle_mega_man-removebg_90: 474366957
+      idle_mega_man-removebg_91: -621522727
+      idle_mega_man-removebg_92: 222383775
+      idle_mega_man-removebg_93: 1776788509
+      idle_mega_man-removebg_94: -2040156695
+      idle_mega_man-removebg_95: -354332873
+      idle_mega_man-removebg_96: 532593518
+      idle_mega_man-removebg_97: -1160330264
+      idle_mega_man-removebg_98: 2059655582
+      idle_mega_man-removebg_99: 1821489468
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
