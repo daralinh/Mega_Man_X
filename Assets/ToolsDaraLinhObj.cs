@@ -55,24 +55,14 @@ public class ToolsDaraLinhObj : MonoBehaviour
         return false;
     }
 
-    public bool IsPointerUIObject(Image image)
-    {
-        return !IsPointerOverUIObject(image);
-    }
-
     public bool IsPointerOverUIObject(Button button)
     {
-        if (!instance.IsNull(button) && !instance.IsNull(button.image))
+        if (!instance.IsNull(button))
         {
             return IsPointerOverUIObject(button.image);
         }
         
         return false;
-    }
-
-    public bool IsPointerUIObject(Button button)
-    {
-        return !IsPointerOverUIObject(button);
     }
 
     public void ReSizeUIObject(Image image, Vector3 newSize)
@@ -110,6 +100,18 @@ public class ToolsDaraLinhObj : MonoBehaviour
         if (!instance.IsNull(button))
         {
             button.GetComponent<RectTransform>().localScale = newSize;
+        }
+    }
+
+    public void ScaleButtonWhenMousePointer(Button button, float rate, Vector3 originScale)
+    {
+        if (ToolsDaraLinhObj.instance.IsPointerOverUIObject(button))
+        {
+            ToolsDaraLinhObj.instance.ReSizeUIObject(button, originScale * rate);
+        }
+        else
+        {
+            ToolsDaraLinhObj.instance.ReSizeUIObject(button, originScale);
         }
     }
 }

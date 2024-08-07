@@ -7,6 +7,10 @@ public class AboutMe : MonoBehaviour
 {
     public static AboutMe instance = null;
 
+    public Button GmailButton;
+    public Button GitHubButton;
+    public Button FacebookButton;
+
     public Text UrlFacebook;
     public Text UrlGitHub;
     public Text Gmail;
@@ -15,6 +19,7 @@ public class AboutMe : MonoBehaviour
 
     void Start()
     {
+        ImageAboutMe.gameObject.SetActive(true);
     }
 
     void Update()
@@ -32,7 +37,6 @@ public class AboutMe : MonoBehaviour
                 return;
             }
         }
-
     }
 
     void Awake()
@@ -47,11 +51,6 @@ public class AboutMe : MonoBehaviour
     {
         ImageAboutMe.gameObject.SetActive(false);
         instance.gameObject.SetActive(false);
-    }
-
-    public void On()
-    {
-        ImageAboutMe.gameObject.SetActive(true);
     }
 
     public void ClickButtonFacebook()
