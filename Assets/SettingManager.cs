@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SettingManager : MonoBehaviour
 {
     public static SettingManager instance = null;
+
+    public Image SettingHub;
 
     void Awake()
     {
@@ -23,7 +26,7 @@ public class SettingManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        SettingHub.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
