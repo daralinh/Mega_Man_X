@@ -25,15 +25,16 @@ public class Menu : MonoBehaviour
         _scaleOriginSmallButton = AboutMeButton.GetComponent<RectTransform>().localScale;
 
         AboutMe.instance.gameObject.SetActive(false);
+        SettingManager.instance.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointer(PlayButton, ScaleRateButton, _scaleOriginBigButton);
-        ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointer(SettingButton, ScaleRateButton, _scaleOriginBigButton);
-        ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointer(ExitButton, ScaleRateButton, _scaleOriginBigButton);
-        ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointer(AboutMeButton, ScaleRateButton, _scaleOriginSmallButton);
+        ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointerFameByFame(PlayButton, ScaleRateButton, _scaleOriginBigButton);
+        ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointerFameByFame(SettingButton, ScaleRateButton, _scaleOriginBigButton);
+        ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointerFameByFame(ExitButton, ScaleRateButton, _scaleOriginBigButton);
+        ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointerFameByFame(AboutMeButton, ScaleRateButton, _scaleOriginSmallButton);
     }
 
     void Awake()
@@ -46,14 +47,13 @@ public class Menu : MonoBehaviour
 
     public void ClickPlayGameButton()
     {
-        ToolsDaraLinhObj.instance.ReSizeUIObject(PlayButton, _scaleOriginBigButton);
         SceneManager.LoadSceneAsync(1);
     }
 
     public void ClickSettingButton()
     {
         instance.enabled = false;
-        ToolsDaraLinhObj.instance.ReSizeUIObject(SettingButton, _scaleOriginBigButton);
+        SettingManager.instance.On();
     }
 
     public void ExitGameButton()
@@ -64,7 +64,6 @@ public class Menu : MonoBehaviour
     public void ClickAboutMeButton()
     {
         instance.enabled = false;
-        ToolsDaraLinhObj.instance.ReSizeUIObject(AboutMeButton, _scaleOriginSmallButton);
-        AboutMe.instance.gameObject.SetActive(true);
+        AboutMe.instance.On();
     }
 }

@@ -103,15 +103,22 @@ public class ToolsDaraLinhObj : MonoBehaviour
         }
     }
 
-    public void ScaleButtonWhenMousePointer(Button button, float rate, Vector3 originScale)
+    public void ScaleButtonWhenMousePointerFameByFame(Button button, float rate, Vector3 originScale)
     {
         if (ToolsDaraLinhObj.instance.IsPointerOverUIObject(button))
         {
-            ToolsDaraLinhObj.instance.ReSizeUIObject(button, originScale * rate);
+            if (button.GetComponent<RectTransform>().localScale == originScale)
+            {
+                ToolsDaraLinhObj.instance.ReSizeUIObject(button, originScale * rate);
+            }
+            else return;
         }
         else
         {
-            ToolsDaraLinhObj.instance.ReSizeUIObject(button, originScale);
+            if (button.GetComponent<RectTransform>().localScale != originScale)
+            {
+                ToolsDaraLinhObj.instance.ReSizeUIObject(button, originScale);
+            }
         }
     }
 }

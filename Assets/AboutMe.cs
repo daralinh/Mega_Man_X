@@ -29,7 +29,7 @@ public class AboutMe : MonoBehaviour
             Off();
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
         {
             if (!ToolsDaraLinhObj.instance. IsPointerOverUIObject(ImageHub))
             {
@@ -47,10 +47,17 @@ public class AboutMe : MonoBehaviour
             Destroy(gameObject);
     }
 
+    public void On()
+    {
+        ImageAboutMe.gameObject.SetActive(true);
+        instance.gameObject.SetActive(true);
+    }
+
     public void Off()
     {
         ImageAboutMe.gameObject.SetActive(false);
         instance.gameObject.SetActive(false);
+        Menu.instance.enabled = true;
     }
 
     public void ClickButtonFacebook()
