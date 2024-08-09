@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,15 +8,18 @@ public class AboutMe : MonoBehaviour
     private Vector3 _scaleOriginGitHubButton;
     private Vector3 _scaleOriginFacebookButton;
 
-
+    [Header("---- Button ----")]
     public float ScaleRateButton;
     public Button GmailButton;
     public Button GitHubButton;
     public Button FacebookButton;
 
+    [Header("---- Url ----")]
     public Text UrlFacebook;
     public Text UrlGitHub;
     public Text Gmail;
+
+    [Header("---- Image ----")]
     public Image ImageAboutMe;
     public Image ImageHub;
 

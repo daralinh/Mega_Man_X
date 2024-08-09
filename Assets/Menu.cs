@@ -1,16 +1,14 @@
-using JetBrains.Annotations;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
+    public static Menu instance = null;
     private Vector3 _scaleOriginBigButton;
     private Vector3 _scaleOriginSmallButton;
-    public static Menu instance = null;
 
+    [Header("---- Button ----")]
     public float ScaleRateButton;
     public Button PlayButton;
     public Button SettingButton;
@@ -24,6 +22,7 @@ public class Menu : MonoBehaviour
 
         AboutMe.instance.gameObject.SetActive(false);
         SettingManager.instance.gameObject.SetActive(false);
+        AudioManager.instance.PlayBackground(AudioManager.instance.IntroMenu);
     }
 
     void Update()
@@ -44,6 +43,7 @@ public class Menu : MonoBehaviour
 
     public void ClickPlayGameButton()
     {
+        AudioManager.instance.StopBackground();
         SceneManager.LoadSceneAsync(1);
     }
 

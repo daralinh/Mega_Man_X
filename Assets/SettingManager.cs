@@ -1,18 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SettingManager : MonoBehaviour
 {
-    [SerializeField] private AudioMixer menuMixer;
-    [SerializeField] private Slider backgroundMusicSlider;
-    [SerializeField] private Slider effectMusicSlider;
-
     public static SettingManager instance = null;
 
+    [Header("---- Image ----")]
     public Image SettingHub;
     public Image SettingHubImage;
 
