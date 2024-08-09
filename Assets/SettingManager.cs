@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SettingManager : MonoBehaviour
 {
+    [SerializeField] private AudioMixer menuMixer;
+    [SerializeField] private Slider backgroundMusicSlider;
+    [SerializeField] private Slider effectMusicSlider;
+
     public static SettingManager instance = null;
 
     public Image SettingHub;
@@ -25,12 +30,6 @@ public class SettingManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))

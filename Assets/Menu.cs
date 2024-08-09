@@ -12,13 +12,11 @@ public class Menu : MonoBehaviour
     public static Menu instance = null;
 
     public float ScaleRateButton;
-    //public Image ImageToEnlarge;
     public Button PlayButton;
     public Button SettingButton;
     public Button ExitButton;
     public Button AboutMeButton;
 
-    // Start is called before the first frame update
     void Start()
     {
         _scaleOriginBigButton = PlayButton.GetComponent<RectTransform>().localScale;
@@ -28,7 +26,6 @@ public class Menu : MonoBehaviour
         SettingManager.instance.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointerFameByFame(PlayButton, ScaleRateButton, _scaleOriginBigButton);

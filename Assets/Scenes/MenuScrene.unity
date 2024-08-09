@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 551084037}
   - component: {fileID: 551084036}
   m_Layer: 5
-  m_Name: ImageUISettingManager
+  m_Name: SettingManagerHubImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1049,9 +1049,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Em \u0111ang t\xECm vi\u1EC7c \u1EA1. M\u1ECDi ng\u01B0\u1EDDi c\xF3 nhu
-    c\u1EA7u th\xEC c\xF3 th\u1EC3 li\xEAn h\u1EC7 em b\u1EB1ng c\xE1ch b\u1EA5m
-    v\xE0o c\xE1c icon b\xEAn d\u01B0\u1EDBi. \nEm xin c\u1EA3m \u01A1n."
+  m_Text: "Ch\xE0o m\u1ECDi ng\u01B0\u1EDDi! Em \u0111ang t\xECm vi\u1EC7c \u1EA1.
+    M\u1ECDi ng\u01B0\u1EDDi c\xF3 nhu c\u1EA7u th\xEC c\xF3 th\u1EC3 li\xEAn h\u1EC7
+    em b\u1EB1ng c\xE1ch b\u1EA5m v\xE0o c\xE1c icon b\xEAn d\u01B0\u1EDBi. Em xin
+    c\u1EA3m \u01A1n."
 --- !u!222 &580137806
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1715,7 +1716,7 @@ RectTransform:
   m_GameObject: {fileID: 1275761306}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.86776125, y: 0.86776125, z: 0.86776125}
+  m_LocalScale: {x: 0.868, y: 0.868, z: 0.868}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 547909202}
@@ -2081,7 +2082,7 @@ RectTransform:
   m_GameObject: {fileID: 1521747837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.19078927, y: 0.19078927, z: 0.19078927}
+  m_LocalScale: {x: 0.191, y: 0.191, z: 0.191}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1110623204}
@@ -2363,6 +2364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88444a08b7331864abbccd6f157c93ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScaleRateButton: 0
   GmailButton: {fileID: 1995295664}
   GitHubButton: {fileID: 1275761308}
   FacebookButton: {fileID: 1521747839}
@@ -3020,6 +3022,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb8912a1c631734797dea039ad77e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMixer: {fileID: 0}
+  backgroundMusicSlider: {fileID: 720532485}
+  effectMusicSlider: {fileID: 0}
   SettingHub: {fileID: 4438926}
   SettingHubImage: {fileID: 551084036}
 --- !u!1 &1917565579
@@ -3208,7 +3213,7 @@ RectTransform:
   m_GameObject: {fileID: 1995295662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.12473456, y: 0.12473456, z: 0.12473456}
+  m_LocalScale: {x: 0.125, y: 0.125, z: 0.125}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 147048721}
@@ -3325,7 +3330,7 @@ GameObject:
   - component: {fileID: 2042231937}
   - component: {fileID: 2042231936}
   m_Layer: 5
-  m_Name: BackgroundMusicSlider (1)
+  m_Name: EffectMusicSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3508,7 +3513,7 @@ RectTransform:
   m_GameObject: {fileID: 2069436346}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.43428987, y: 0.43428987, z: 0.43428987}
+  m_LocalScale: {x: 0.45539635, y: 0.45539635, z: 0.45539635}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1482774412}

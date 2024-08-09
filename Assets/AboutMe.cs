@@ -6,7 +6,12 @@ using UnityEngine.UI;
 public class AboutMe : MonoBehaviour
 {
     public static AboutMe instance = null;
+    private Vector3 _scaleOriginGmailButton;
+    private Vector3 _scaleOriginGitHubButton;
+    private Vector3 _scaleOriginFacebookButton;
 
+
+    public float ScaleRateButton;
     public Button GmailButton;
     public Button GitHubButton;
     public Button FacebookButton;
@@ -19,6 +24,9 @@ public class AboutMe : MonoBehaviour
 
     void Start()
     {
+        _scaleOriginGmailButton = GmailButton.GetComponent<RectTransform>().localScale;
+        _scaleOriginGitHubButton = GitHubButton.GetComponent<RectTransform>().localScale;
+        _scaleOriginFacebookButton = FacebookButton.GetComponent<RectTransform>().localScale;
     }
 
     void Update()
@@ -35,6 +43,19 @@ public class AboutMe : MonoBehaviour
                 Off();
                 return;
             }
+        }
+
+        if (ToolsDaraLinhObj.instance.IsPointerOverUIObject(GmailButton))
+        {
+            ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointerFameByFame(GmailButton, ScaleRateButton, _scaleOriginGmailButton);
+        }
+        else if (ToolsDaraLinhObj.instance.IsPointerOverUIObject(GitHubButton))
+        {
+            ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointerFameByFame(GmailButton, ScaleRateButton, _scaleOriginGitHubButton);
+        }
+        else if (ToolsDaraLinhObj.instance.IsPointerOverUIObject(FacebookButton))
+        {
+            ToolsDaraLinhObj.instance.ScaleButtonWhenMousePointerFameByFame(GmailButton, ScaleRateButton, _scaleOriginFacebookButton);
         }
     }
 
