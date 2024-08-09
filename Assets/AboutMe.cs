@@ -19,7 +19,6 @@ public class AboutMe : MonoBehaviour
 
     void Start()
     {
-        ImageAboutMe.gameObject.SetActive(true);
     }
 
     void Update()

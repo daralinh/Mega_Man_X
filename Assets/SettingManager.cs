@@ -28,7 +28,6 @@ public class SettingManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SettingHub.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
@@ -51,13 +50,13 @@ public class SettingManager : MonoBehaviour
     public void On()
     {
         SettingHub.gameObject.SetActive(true);
-        instance.enabled = true;
+        instance.gameObject.SetActive(true);
     }
 
     public void Off()
     {
         SettingHub.gameObject.SetActive(false);
-        instance.enabled = false;
+        instance.gameObject.SetActive(false);;
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
             Menu.instance.enabled = true;

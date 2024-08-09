@@ -9,9 +9,9 @@ public class Menu : MonoBehaviour
 {
     private Vector3 _scaleOriginBigButton;
     private Vector3 _scaleOriginSmallButton;
+    public static Menu instance = null;
 
     public float ScaleRateButton;
-    public static Menu instance = null;
     //public Image ImageToEnlarge;
     public Button PlayButton;
     public Button SettingButton;
